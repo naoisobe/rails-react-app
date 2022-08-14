@@ -1,0 +1,65 @@
+
+/project-backend/.bundle
+/project-backend/vendor/bundle
+
+# Ignore the default SQLite database.
+/project-backend/db/*.sqlite3
+/project-backend/db/*.sqlite3-*
+
+# Ignore all logfiles and tempfiles.
+/project-backend/log/*
+/project-backend/tmp/*
+!/project-backend/log/.keep
+!/project-backend/tmp/.keep
+
+# Ignore pidfiles, but keep the directory.
+/project-backend/tmp/pids/*
+!/project-backend/tmp/pids/
+!/project-backend/tmp/pids/.keep
+
+/project-backend/.env
+
+# Ignore uploaded files in development.
+/project-backend/storage/*
+!/project-backend/storage/.keep
+/project-backend/tmp/storage/*
+!/project-backend/tmp/storage/
+!/project-backend/tmp/storage/.keep
+
+# Ignore master key for decrypting credentials and more.
+/project-backend/config/master.key
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/project-frontend/node_modules
+
+/project-frontend/.pnp
+/project-frontend/.pnp.js
+
+# testing
+/project-frontend/coverage
+
+# next.js
+/project-frontend/.next/
+/project-frontend/out/
+
+# production
+/project-frontend/build
+
+# misc
+/project-frontend/.DS_Store
+/project-frontend/*.pem
+
+# debug
+/project-frontend/npm-debug.log*
+/project-frontend/yarn-debug.log*
+/project-frontend/yarn-error.log*
+/project-frontend/.pnpm-debug.log*
+
+# local env files
+/project-frontend/.env*.local
+
+# vercel
+/project-frontend/.vercel
